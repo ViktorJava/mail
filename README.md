@@ -39,6 +39,7 @@
 * user1 ->xxx@ya.ru,foo@gmail.com,lol@mail.ru,ups@pisem.net,aaa@bbb.ru
 * user3 ->xyz@pisem.net,vasya@pupkin.com
 
+![Pic](pic/mailpic.png)
 
 ## Лицензия
 	
