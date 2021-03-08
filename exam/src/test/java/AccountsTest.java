@@ -20,15 +20,11 @@ public class AccountsTest {
     @Test
     public void whenEmailEqualThenMerge() {
         Map<String, Set<String>> input = new HashMap<>();
-        input.put("user1", Set.of("foo@gmail.com", "hoo@gmail.com", "zoo@gmail.com"));
-        input.put("user2", Set.of("foo@gmail.com", "hoo@gmail.com", "zoo@gmail.com"));
-        input.put("user3", Set.of("foo@gmail.com", "hoo@gmail.com", "boo@mail.ru"));
+        input.put("user1", Set.of("foo@gmail.com", "boo@gmail.com"));
+        input.put("user2", Set.of("foo@gmail.com", "boo@gmail.com", "zoo@gmail.com"));
         Map<String, Set<String>> out = new HashMap<>();
-        out.put("user1", Set.of(
-                "foo@gmail.com", "hoo@gmail.com"
-                , "zoo@gmail.com", "boo@mail.ru")
-        );
-        assertThat(Accounts.mergeAccount(input), is(out));
+        out.put("user1", Set.of("foo@gmail.com", "boo@gmail.com", "zoo@gmail.com"));
+        assertThat(Accounts.merge(input), is(out));
     }
 
     @Test
@@ -36,7 +32,7 @@ public class AccountsTest {
         Map<String, Set<String>> input = new HashMap<>();
         input.put("user1", Set.of("foo@gmail.com", "hoo@gmail.com", "zoo@gmail.com"));
         input.put("user2", Set.of("foo@gmail.com", "hoo@gmail.com", "zoo@gmail.com"));
-        Map<String, Set<String>> out = Accounts.mergeAccount(input);
+        Map<String, Set<String>> out = Accounts.merge(input);
         assertThat(out.get("user2"), nullValue());
     }
 }
