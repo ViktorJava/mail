@@ -37,6 +37,7 @@ public class Accounts {
             String key = inElement.getKey();
             if (out.isEmpty()) {
                 out.put(key, inElement.getValue());
+                continue;
             }
             for (Map.Entry<String, Set<String>> outElement: out.entrySet()) {
                 Set<String> set = new HashSet<>();
