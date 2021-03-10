@@ -43,7 +43,12 @@
 
 ![Pic](pic/mailpic.png)
 
+---
+
 ![Pic](pic/mergeUsers.png)
+
+## Код
+![Pic](pic/merge.png)
 
 ## Лицензия
 	
