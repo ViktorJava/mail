@@ -3,7 +3,9 @@
 ## Технологии и инструменты:
 <p align="center">
 <img src="https://www.vectorlogo.zone/logos/java/java-ar21.svg" alt="bootstrap" width="120" height="60"/>
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/IntelliJ_IDEA_Logo.svg/1024px-IntelliJ_IDEA_Logo.svg.png" alt="intellij" height="60"/>
+
+<img src="pic/id.png" alt="intellij" height="50"/>
+
 <img src="https://www.vectorlogo.zone/logos/github/github-ar21.svg" alt="github" height="60"/>
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Maven_logo.svg/680px-Maven_logo.svg.png" alt="redux" height="40"/>
 </p>
