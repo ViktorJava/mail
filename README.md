@@ -1,13 +1,11 @@
-<h1 align="center">почта [#184458] 👋</h1>
+<h1 align="center">Почта. Слияние пользователей.👋</h1>
 
 ## Технологии и инструменты:
 <p align="center">
-<img src="https://www.vectorlogo.zone/logos/java/java-ar21.svg" alt="bootstrap" width="120" height="60"/>
-
+<img src="https://www.vectorlogo.zone/logos/java/java-ar21.svg" alt="Java" width="120" height="60"/>
 <img src="pic/id.png" alt="intellij" height="50"/>
-
 <img src="https://www.vectorlogo.zone/logos/github/github-ar21.svg" alt="github" height="60"/>
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Maven_logo.svg/680px-Maven_logo.svg.png" alt="redux" height="40"/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/52/Apache_Maven_logo.svg" alt="Maven" height="40"/>
 </p>
 
 ## Требуется:
